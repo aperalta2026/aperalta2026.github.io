@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/90223757f1.js" crossorigin="anonymous"></script>
+<title>tofu</title>
+<link rel="icon" type="image/x-icon" href="https://i.pinimg.com/564x/3f/f0/18/3ff0182c281737ce1ac801e29d712d22.jpg">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+<style>
+
+header {
+  background-color: #f3d4a3;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #e89c22;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+nav {
+  float: right;
+  width: 30%;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.footer {
+  background-color: #f9e0c3;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #fff7ec;
+  font-family: 'Playfair Display', serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: rgb(0, 0, 0);
+  background-color: #e0dac7db;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cat {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    color:#3e3c36db;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-bottom: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  height: auto;
+  border: solid 7px rgb(228, 205, 195);
+}
+
+.overlay {
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.85;
+  background-color: #fbe8ac;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 98%;
+  left: 0;
+}
+
+.column2 {
+  float: left;
+  width: 46%;
+  padding: 10px;
+}
+
+.column2 img {
+  margin-top: 12px;
+}
+
+.text {
+  color: rgb(87, 71, 61);
+  font-size: 20px;
+  font-family: 'Playfair Display', serif ;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: left;
+}
+
+a {
+    color: rgb(81, 69, 64);
+}
+
+.me{
+  transition: 0.3s;
+}
+
+.me:hover{
+  background-color: #f6c65f;
+}
+
+.button {
+  background-color: #e4cb99;
+  border: none;
+  color: rgb(75, 75, 75);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif ;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body style="background-color: #ffe7d7db;">
+
+<header>
+    <h1 style="font-size: 80px;">tofu</h1>
+</header>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="mg.html">McGee <i class="fa-solid fa-cat"></i></a></li>
+    <li><a href="aiko.html">Aiko <i class="fa-solid fa-cat"></i></a></li>
+    <li><a class="active" href="tf.html">Tofu <i class="fa-solid fa-paw"></i></a></li>
+    <li><a href="abttheauth.html">Author</a></li>
+</ul>
+
+<div class="row" style="margin-left: 50px;margin-right: 50px;margin-top: 20px;">
+  <div class="column container">
+    <img src="https://media.discordapp.net/attachments/1028259896547868783/1036847186031415316/IMG_3524.jpg?width=492&height=656" class="hovertext image" alt="miao1" style="width:95%">
+    <div class="overlay">
+        <div class="text">
+            This is Tofu. She's one of McGee and Aiko's children. She's also a Russian Blue, but her fur turned out white because of this phenomena called colorpoint.<br><br>She was born on February 19, 2022. She's around 8 months old now.
+        </div>
+      </div>
+  </div>
+  <div class="column container">
+    <img src="https://media.discordapp.net/attachments/1028259896547868783/1036835343728656455/9B0312FE-875B-4A7A-B5A4-02D1B9E1FE7C.jpg?width=492&height=656" class="hovertext image" alt="miao2" style="width:95%">
+    <div class="overlay">
+        <div class="text">
+            She's also really affectionate and cuddly with people. She likes to jump in my room through the window just to ask for pets.<br><br>Tofu's the most playful and energetic one of the bunch. If she's not eating or sleeping, she's probably running around the house playing chase with Aiko.
+        </div>
+      </div>  
+</div>
+  <div class="column container">
+    <img src="https://media.discordapp.net/attachments/1028259896547868783/1036847186924802088/IMG_6357.jpg?width=492&height=656" class="hovertext image" alt="miao3" style="width:95%">
+    <div class="overlay">
+        <div class="text">
+            Tofu is one of three siblings, and the oldest one at that.<br><br>She has a brother named Nori and a sister named Miso, who we both had to gave away to our other distant relatives ( i miss them a lot :( ). 
+        </div>
+      </div> 
+</div>
+</div>
+
+<div style="text-align: center;">
+  __________________________________________________________________________________________________________________________________<br><br>
+</div>
+
+<div style="text-align: center; font-family: 'Playfair Display', serif ; color: #806b42;">
+<h1>gallery <i class="fa-sharp fa-solid fa-heart"></i></h1>
+</div>
+
+<div class="row" style="margin-left: 200px;margin-right: 200px;">
+<div class="column2">
+    <img src="https://media.discordapp.net/attachments/1028259896547868783/1037027821182263366/IMG_6153.jpg?width=492&height=656" alt="1" style="border: solid 5px rgb(255, 228, 181); width: 100%;">
+    <img src="https://media.discordapp.net/attachments/1028259896547868783/1037027821526192128/IMG_6281.jpg?width=492&height=656" alt="2" style="border: solid 5px rgb(255, 228, 181); width: 100%;">
+</div>
+<div class="column2">
+    <img src="https://media.discordapp.net/attachments/1028259896547868783/1037027822381834260/C2F77FFF-F8E5-461B-8275-11482F44422D.jpg?width=492&height=656" alt="3" style="border: solid 5px rgb(255, 228, 181); width: 100%;">
+    <img src="https://cdn.discordapp.com/attachments/1028259896547868783/1037330476765032551/11FADF30-A6B0-4A55-AAB8-EA35BE1E2BED.jpg" alt="4" style="border: solid 5px rgb(255, 228, 181); width: 100%;">
+</div>
+<div class="column2">
+  <video controls style="border: solid 5px rgb(255, 228, 181); width: 100%;" class="center">
+    <source src="https://cdn.discordapp.com/attachments/1028259896547868783/1037328716948324473/trim.F4A8E5A0-F59D-4823-897B-D237E3A236BC.mov" type="video/mp4">
+  </video>
+</div>
+<div class="column2">
+  <video controls style="border: solid 5px rgb(255, 228, 181); width: 100%;" class="center">
+    <source src="https://cdn.discordapp.com/attachments/1028259896547868783/1037027821983379456/IMG_3081.mov" type="video/mp4">
+  </video>
+</div>
+</div>
+
+
+<div class="footer">
+  <a href="abttheauth.html" class="button">abt me >>></a>
+</div>
+
+</body>
+</html>

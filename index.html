@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/90223757f1.js" crossorigin="anonymous"></script>
+<title>home</title>
+<link rel="icon" type="image/x-icon" href="https://i.pinimg.com/564x/3f/f0/18/3ff0182c281737ce1ac801e29d712d22.jpg">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+<style>
+
+header {
+  background-image: url(https://media.discordapp.net/attachments/1028259896547868783/1033935277883924591/miau.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #000000;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+nav {
+  float: right;
+  width: 30%;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.footer {
+  background-color: #f9e0c3;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #fff7ec;
+  font-family: 'Playfair Display', serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: rgb(0, 0, 0);
+  background-color: #e0dac7db;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cat {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color:#3e3c36db;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-bottom: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  height: auto;
+  border: solid 7px rgb(228, 205, 195);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #ffd9c3;
+  opacity: 0.85;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 99%;
+  left: 0;
+}
+
+.text {
+  color: rgb(87, 71, 61);
+  font-size: 25px;
+  font-family: 'Playfair Display', serif ;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+a {
+    color: rgb(81, 69, 64);
+}
+
+.me{
+  transition: 0.3s;
+}
+
+.me:hover{
+  background-color: rgb(206, 239, 164);
+}
+
+.button {
+  background-color: #d8bf9b;
+  border: none;
+  color: rgb(75, 75, 75);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif ;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body style="background-color:#faecdcdb;">
+
+<header>
+    <h1 style="font-size: 80px;"><strong>meowww.com</strong></h1>
+    <p style="font-size: 20px;">literally just a website abt my cats!!!</p>
+</header>
+
+<ul>
+    <li><a class="active" href="home.html">Home</a></li>
+    <li><a href="mg.html">McGee <i class="fa-solid fa-cat"></i></a></li>
+    <li><a href="aiko.html">Aiko <i class="fa-solid fa-cat"></i></a></li>
+    <li><a href="tf.html">Tofu <i class="fa-solid fa-cat"></i></a></li>
+    <li><a href="abttheauth.html">Author</a></li>
+</ul>
+
+    <h2 class="cat">
+        hi!!! i love my cats!!! get to know them here!!!
+    </h2>
+
+    <div class="row" style="margin-left: 50px;margin-right: 50px;">
+      <div class="column container">
+        <img src="https://media.discordapp.net/attachments/1028259896547868783/1036476647341309983/9BC04AB7-6A95-403B-89C3-5847F1B9D423.jpg?width=656&height=656" class="image" alt="miao1" style="width:95%">
+        <div class="overlay">
+            <div class="text">
+                <a href="mg.html"><strong>McGee</strong></a><br>Russian Blue ♂<br>2 y.o.<br>
+            </div>
+          </div>
+      </div>
+      <div class="column container">
+        <img src="https://media.discordapp.net/attachments/1028259896547868783/1033732747405033542/D8F3F99C-CE1C-4461-8D49-37A1D907CF0C.jpg?width=630&height=630" class="image" alt="miao2" style="width:95%">
+        <div class="overlay">
+            <div class="text">
+                <a href="aiko.html"><strong>Aiko</strong></a><br>Russian Blue ♀<br>1 y.o.<br>
+            </div>
+          </div>  
+    </div>
+      <div class="column container">
+        <img src="https://media.discordapp.net/attachments/1028259896547868783/1036476647676846161/IMG_0719.jpg?width=656&height=656" class="image" alt="miao3" style="width:95%">
+        <div class="overlay">
+            <div class="text">
+                <a href="tf.html"><strong>Tofu</strong></a><br>Colorpoint<br>Russian Blue ♀<br>8 mos.<br>
+            </div>
+          </div> 
+    </div>
+    </div>
+    
+<div style="text-align: center;">
+  __________________________________________________________________________________________________________________________________<br><br>
+</div>
+
+
+<a href="abttheauth.html"><img src="https://media.discordapp.net/attachments/1028259896547868783/1036901666076774420/4B1BCBC8-2750-4B23-848D-C7D93498F9EE.jpg?width=656&height=656" class="me center" style="border-radius: 50%; padding: 10px; width:150px;" alt="ablkdb!!!" ></a>
+
+<br>
+
+<div class="footer">
+  <a href="mg.html" class="button">next >>></a>
+</div>
+
+</body>
+</html>
